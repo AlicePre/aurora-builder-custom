@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	
-	<element name="Lunar Sorcery" type="Archetype" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_CRIT_ARCHETYPE_LUNAR_SORCERY">
+	<element name="Lunar Sorcery" type="Archetype" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_DSDQ_ARCHETYPE_LUNAR_SORCERY">
 		<supports>Sorcerous Origin</supports>
 		<description>
 			<p>On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.</p>
@@ -24,12 +24,12 @@
 				<tr><td>3</td><td>Spectral manifestations of the moon (or moons) of your world orbit you.</td></tr>
 				<tr><td>4</td><td>Your shadow is limned in faint light, as if it were a lunar body during a solar eclipse.</td></tr>
 			</table>
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_MOON_FIRE" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMBODIMENT" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_BOONS" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_WAXING_AND_WANING" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMPOWERMENT" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_PHENOMENON" />
+			<div element="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_MOON_FIRE" />
+			<div element="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMBODIMENT" />
+			<div element="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_BOONS" />
+			<div element="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_WAXING_AND_WANING" />
+			<div element="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMPOWERMENT" />
+			<div element="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_PHENOMENON" />
 		</description>
 		<setters>
 			<set name="sourceUrl">https://www.dndbeyond.com/posts/1366-lunar-sorcery-sorcerer-preview-from-dragonlance</set>
@@ -37,28 +37,29 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_MOON_FIRE" level="1" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMBODIMENT" level="1" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_BOONS" level="6" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_WAXING_AND_WANING" level="6" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMPOWERMENT" level="14" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_PHENOMENON" level="18" />
+			<grant type="Archetype Feature" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_MOON_FIRE" level="1" />
+			<grant type="Archetype Feature" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMBODIMENT" level="1" />
+			<grant type="Archetype Feature" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_BOONS" level="6" />
+			<grant type="Archetype Feature" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_WAXING_AND_WANING" level="6" />
+			<grant type="Archetype Feature" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMPOWERMENT" level="14" />
+			<grant type="Archetype Feature" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_PHENOMENON" level="18" />
 		</rules>
 	</element>
-	<element name="Moon Fire" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_MOON_FIRE">
+	<element name="Moon Fire" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_MOON_FIRE">
 		<description>
 			<p><em>1st-level Lunar Sorcery feature</em></p>	
 			<p>You can call down the radiant light of the moon on command. You learn the sacred flame spell, which doesn't count against the number of sorcerer cantrips you know. When you cast the spell, you can target one creature as normal or target two creatures within range that are within 5 feet of each other.</p>
 			<p class="indent">When you gain a level in this class, you can replace one spell from this feature with an evocation or conjuration spell from the sorcerer, bard, or wizard spell list of the same level.</p>
 		</description>
 		<sheet>
-			<description>You can call down the radiant light of the moon on command. You learn the sacred flame spell, which doesn't count against the number of sorcerer cantrips you know. When you cast the spell, you can target one creature as normal or target two creatures within range that are within 5 feet of each other.</description>
+			<description>You learn the sacred flame spell, which doesn't count against the number of sorcerer cantrips you know.
+			When you cast the spell, you can target one creature as normal or target two creatures within range that are within 5 feet of each other.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_SACRED_FLAME" level="0" spellcasting="Sorcerer" />
 		</rules>
 	</element>
-	<element name="Lunar Embodiment" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMBODIMENT">
+	<element name="Lunar Embodiment" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMBODIMENT">
 		<description>
 			<p><em>1st-level Lunar Sorcery feature</em></p>	
 			<p>You learn additional spells when you reach certain levels in this class, as shown on the Lunar Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.</p>
@@ -76,7 +77,8 @@
 			</table>
 		</description>
 		<sheet>
-			<description>Whenever you finish a long rest, you can choose what lunar phase manifests its power through your magic: Full Moon, New Moon, or Crescent Moon. While in the chosen phase, spells of the associated phase in the Lunar Spells table can be cast once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.</description>
+			<description>Whenever you finish a long rest, you can choose what lunar phase manifests its power through your magic: Full Moon, New Moon, or Crescent Moon.
+			While in the chosen phase, spells of the associated phase in the Lunar Spells table can be cast once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="1" spellcasting="Sorcerer" />
@@ -96,7 +98,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DREAM" level="9" spellcasting="Sorcerer" />
 		</rules>
 	</element>
-	<element name="Lunar Boons" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_BOONS">
+	<element name="Lunar Boons" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_BOONS">
 		<description>
 			<p><em>6th-level Lunar Sorcery feature</em></p>
 			<p>Lunar phases influence your metamagic. Each lunar phase is associated with spells of the following schools of magic:</p>
@@ -106,19 +108,24 @@
 			<p>Whenever you use Metamagic on a spell from the Lunar Spells table or a spell of a school of magic associated with the lunar phase you are in, you can reduce the sorcery points spent by 1 (minimum 0). You can reduce the sorcery points spent for your Metamagic a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet usage="{{proficiency}}/Long Rest" >
-			<description>Whenever you use Metamagic on a spell from the Lunar Spells table or a spell of a school of magic associated with the lunar phase you are in, you can reduce the sorcery points spent by 1 (minimum 0). You can reduce the sorcery points spent for your Metamagic a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest</description>
+			<description>Lunar phases influence your metamagic. Each lunar phase is associated with spells of the following schools of magic:
+			Full Moon. Abjuration and conjuration spells.
+			New Moon. Evocation and necromancy spells.
+			Crescent Moon. Divination and transmutation spells.
+			Whenever you use Metamagic on a spell from the Lunar Spells table or a spell of a school of magic associated with the lunar phase you are in, you can reduce the sorcery points spent by 1 (minimum 0).
+			You can reduce the sorcery points spent for your Metamagic a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest</description>
 		</sheet>
 	</element>
-	<element name="Waxing and Waning" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_WAXING_AND_WANING">
+	<element name="Waxing and Waning" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_WAXING_AND_WANING">
 		<description>
 			<p><em>6th-level Lunar Sorcerery feature</em></p>
 			<p>You gain greater control over the phases of your lunar magic. As a bonus action, you can spend 1 sorcery point to change your lunar phase for a different one.</p>
 		</description>
 		<sheet action="Bonus Action" >
-			<description>You gain greater control over the phases of your lunar magic. As a bonus action, you can spend 1 sorcery point to change your lunar phase for a different one.</description>
+			<description>As a bonus action, you can spend 1 sorcery point to change your lunar phase for a different one.</description>
 		</sheet>
 	</element>
-	<element name="Lunar Empowerment" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMPOWERMENT">
+	<element name="Lunar Empowerment" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_EMPOWERMENT">
 		<description>
 			<p><em>14th-level Lunar Sorcery feature</em></p>
 			<p>The power of a lunar phase saturates your being. Whenever you choose a lunar phase to affect your magic, you also gain the following benefit associated with that phase:</p>
@@ -128,14 +135,14 @@
 		</description>
 		<sheet>
 			<description>
-				<p>The power of a lunar phase saturates your being. Whenever you choose a lunar phase to affect your magic, you also gain the following benefit associated with that phase:</p>
-				<p><b>Full Moon:</b> You shed bright light in a 10-foot radius and dim light for an additional 10 feet. In addition, you and creatures of your choice have advantage on saving throws while within the bright light you shed.</p>
-				<p><b>New Moon:</b> You have advantage on Dexterity (Stealth) checks. In addition, while you are in dim light or darkness, attack rolls have disadvantage against you.</p>
-				<p><b>Crescent Moon:</b> You have resistance to necrotic and radiant damage</p>
+				Whenever you choose a lunar phase to affect your magic, you also gain the following benefit associated with that phase:
+				Full Moon: You shed bright light in a 10-foot radius and dim light for an additional 10 feet. In addition, you and creatures of your choice have advantage on saving throws while within the bright light you shed.
+				New Moon: You have advantage on Dexterity (Stealth) checks. In addition, while you are in dim light or darkness, attack rolls have disadvantage against you.
+				Crescent Moon: You have resistance to necrotic and radiant damage.
 			</description>
 		</sheet>
 	</element>
-	<element name="Lunar Phenomenon" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_CRIT_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_PHENOMENON">
+	<element name="Lunar Phenomenon" type="Archetype Feature" source="Dragonlance: Shadow of the Dragon Queen preview" id="ID_DSDQ_ARCHETYPE_FEATURE_LUNAR_SORCERY_LUNAR_PHENOMENON">
 		<description>
 			<p><em>18th-level Lunar Sorcery feature</em></p>
 			<p>Your lunar phase magic bursts. As a bonus action, you can tap into a special power of the lunar phase you are currently in. Alternatively, as part of the bonus action you take to change your lunar phase using your Waxing and Waning feature, you can immediately use the power of the lunar phase you are entering:</p>
@@ -146,12 +153,11 @@
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>
-				<p><em>18th-level Lunar Sorcery feature</em></p>
-				<p>Your lunar phase magic bursts. As a bonus action, you can tap into a special power of the lunar phase you are currently in. Alternatively, as part of the bonus action you take to change your lunar phase using your Waxing and Waning feature, you can immediately use the power of the lunar phase you are entering:</p>
-				<p><b>Full Moon:</b> You radiate intense moonlight for a moment. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw against your spell save DC or be blinded until the end of its next turn. In addition, one creature of your choice in that area regains 3d8 hit points.</p>
-				<p><b>New Moon:</b> You momentarily emanate an oppressive gloom. Each creature of your choice within 30 feet of you must succeed on a Dexterity saving throw against your spell save DC or take 3d10 necrotic damage and have its speed reduced to 0 until the end of its next turn. In addition, you become invisible until the end of your next turn, or until you make an attack or cast a spell.</p>
-				<p><b>Crescent Moon:</b> You slip through light and darkness. You and one willing creature of your choice within 5 feet of you can magically teleport to an unoccupied space you can see within 60 feet of yourself. In addition, creatures teleported by this feature gain resistance to all damage until the start of your next turn.</p>
-				<p>Once you use a phase's bonus action, you can't do so again until you finish a long rest, unless you spend 5 sorcery points to use it again.</p>
+				As a bonus action, you can tap into a special power of the lunar phase you are currently in. Alternatively, as part of the bonus action you take to change your lunar phase using your Waxing and Waning feature, you can immediately use the power of the lunar phase you are entering:
+				Full Moon: You radiate intense moonlight for a moment. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw against your spell save DC or be blinded until the end of its next turn. In addition, one creature of your choice in that area regains 3d8 hit points.
+				New Moon: You momentarily emanate an oppressive gloom. Each creature of your choice within 30 feet of you must succeed on a Dexterity saving throw against your spell save DC or take 3d10 necrotic damage and have its speed reduced to 0 until the end of its next turn. In addition, you become invisible until the end of your next turn, or until you make an attack or cast a spell.
+				Crescent Moon: You slip through light and darkness. You and one willing creature of your choice within 5 feet of you can magically teleport to an unoccupied space you can see within 60 feet of yourself. In addition, creatures teleported by this feature gain resistance to all damage until the start of your next turn.
+				Once you use a phase's bonus action, you can't do so again until you finish a long rest, unless you spend 5 sorcery points to use it again.
 			</description>
 		</sheet>
 	</element>
